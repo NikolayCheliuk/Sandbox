@@ -1,0 +1,599 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+
+    // ========================
+    // C Programming Language
+    // ========================
+
+    // ========================
+    // 01_Allocators
+    // ========================
+
+    // ========================
+    // 02_DataStructures
+    // ========================
+
+    {
+      "name": "VectorTest",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/02_DataStructures/01_Vector/Debug/VectorTest.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "02_DataStructures" }
+    },
+    {
+      "name": "ListTest",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/02_DataStructures/02_List/Debug/ListTest.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "02_DataStructures" }
+    },
+    {
+      "name": "RingBufferTest",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/02_DataStructures/03_RingBuffer/Debug/RingBufferTest.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "02_DataStructures" }
+    },
+    {
+      "name": "HashTableTest",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/02_DataStructures/04_HashTable/Debug/HashTableTest.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "02_DataStructures" }
+    },
+    {
+      "name": "BSTTest",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/02_DataStructures/05_BST/Debug/BSTTest.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "02_DataStructures" }
+    },
+    {
+      "name": "HeapTest",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/02_DataStructures/06_Heap/Debug/HeapTest.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "02_DataStructures" }
+    },
+    {
+      "name": "StackTest",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/02_DataStructures/11_Stack/Debug/StackTest.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "02_DataStructures" }
+    },
+    {
+      "name": "DequeTest",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/02_DataStructures/12_Deque/Debug/DequeTest.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "02_DataStructures" }
+    },
+    {
+      "name": "QueueTest",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/02_DataStructures/13_Queue/Debug/QueueTest.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "02_DataStructures" }
+    },
+
+    {
+      "name": "DataStructureUtilsTest",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/02_DataStructures/Utils/Debug/UtilsTest.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "02_DataStructures" }
+    },
+    {
+      "name": "TestUtilsTest",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/02_DataStructures/TestUtils/Debug/TestUtilsTest.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "02_DataStructures" }
+    },
+    // ========================
+    // 03_Algorithms
+    // ========================
+
+    // ========================
+    // 08_IO
+    // ========================
+
+    {
+      "name": "PWM",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/08_IO/PWM/Debug/PWM.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "08_IO" }
+    },
+
+    // ========================
+    // 09_SM
+    // ========================
+
+    {
+      "name": "StateMachineTest",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C/09_StateMachine/StateMachine/Debug/StateMachineTest.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "09_StateMachine" }
+    },
+
+    // ========================
+    // C Programming Language
+    // ========================
+
+    // ========================
+    // 00_Template
+    // ========================
+
+    {
+      "name": "Sandbox",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/00_Sandbox/Debug/Sandbox.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "00_Sandbox" }
+    },
+    {
+      "name": "Template",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/00_Template/Debug/Template.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "00_Sandbox" }
+    },
+
+    // ========================
+    // 01_Allocators
+    // ========================
+
+    {
+      "name": "SmallMemory1",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/01_Allocators/SmallMemory1/Debug/SmallMemory1.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "01_Allocators" }
+    },
+    {
+      "name": "SmallMemory2",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/01_Allocators/SmallMemory2/Debug/SmallMemory2.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "01_Allocators" }
+    },
+
+    // ========================
+    // 02_DataStructures
+    // ========================
+
+
+
+    // ========================
+    // 03_Algorithms
+    // ========================
+
+    {
+      "name": "SearchSort",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/03_Algorithms/SearchSort/Debug/SearchSort.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "03_Algorithms" }
+    },
+
+    // ========================
+    // 04_Logical
+    // ========================
+
+    {
+      "name": "BestTimeToBuyAndSellStock",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/04_Logical/BestTimeToBuyAndSellStock/Debug/BestTimeToBuyAndSellStock.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "04_Logical" }
+    },
+    {
+      "name": "GroupAnagrams",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/04_Logical/GroupAnagrams/Debug/GroupAnagrams.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "04_Logical" }
+    },
+    {
+      "name": "MaximumSubarray_KadanesAlgorithm",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/04_Logical/MaximumSubarray_KadanesAlgorithm/Debug/MaximumSubarray_KadanesAlgorithm.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "04_Logical" }
+    },
+    {
+      "name": "MergeIntervals",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/04_Logical/MergeIntervals/Debug/MergeIntervals.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "04_Logical" }
+    },
+    {
+      "name": "MostFrequentElement",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/04_Logical/MostFrequentElement/Debug/MostFrequentElement.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "04_Logical" }
+    },
+    {
+      "name": "StringFormatting",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/04_Logical/StringFormatting/Debug/StringFormatting.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "04_Logical" }
+    },
+    {
+      "name": "TwoPointers",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/04_Logical/TwoPointers/Debug/TwoPointers.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "04_Logical" }
+    },
+    {
+      "name": "TwoSum",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/04_Logical/TwoSum/Debug/TwoSum.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "04_Logical" }
+    },
+
+    // ========================
+    // 06_ThreadPool
+    // ========================
+
+    {
+      "name": "ThreadPool",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/06_ThreadPool/Debug/ThreadPool.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "06_ThreadPool" }
+    },
+
+    // ========================
+    // 07_STD_IO
+    // ========================
+
+    {
+      "name": "Formatting",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/07_STD_IO/Formatting/Debug/Formatting.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "07_STD_IO" }
+    },
+
+    // ========================
+    // 10_Amazon
+    // ========================
+
+    {
+      "name": "Filmography",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/05_Amazon/Filmography/Debug/Filmography.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "05_Amazon" }
+    },
+    {
+      "name": "Pizza",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/05_Amazon/Pizza/Debug/Pizza.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "05_Amazon" }
+    },
+    {
+      "name": "VideoPlayer",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/05_Amazon/VideoPlayer/Debug/VideoPlayer.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "05_Amazon" }
+    },
+    {
+      "name": "ArithmeticGraph",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/05_Amazon/ArithmeticGraph/Debug/ArithmeticGraph.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "05_Amazon" }
+    },
+
+    // ========================
+    // 11_HackerRank
+    // ========================
+
+    {
+      "name": "AttributeParser",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/11_HackerRank/02_Medium/AttributeParser/Debug/AttributeParser.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "11_HackerRank" }
+    },
+    {
+      "name": "SlidingWindowMaximum",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/11_HackerRank/02_Medium/SlidingWindowMaximum/Debug/SlidingWindowMaximum.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "11_HackerRank" }
+    },
+    {
+      "name": "StringStream",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/11_HackerRank/02_Medium/StringStream/Debug/StringStream.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "11_HackerRank" }
+    },
+        {
+      "name": "BitArray",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/11_HackerRank/03_Hard/BitArray/Debug/BitArray.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "11_HackerRank" }
+    },
+    {
+      "name": "Cpp11Variadics",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/11_HackerRank/03_Hard/C++11 Variadics/Debug/Cpp11Variadics.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "11_HackerRank" }
+    },
+    {
+      "name": "Cpp17Variadics",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/11_HackerRank/03_Hard/C++17 Variadics/Debug/Cpp17Variadics.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "11_HackerRank" }
+    },
+    {
+      "name": "LRUCache",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/11_HackerRank/03_Hard/LRUCache - Abstract Classes - Polymorphism/Debug/LRUCache.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "11_HackerRank" }
+    },
+    {
+      "name": "MagicSpells",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/11_HackerRank/03_Hard/MagicSpells/Debug/MagicSpells.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "11_HackerRank" }
+    },
+
+    // ========================
+    // 12_leetcode
+    // ========================
+
+    {
+      "name": "ClimbingStairs",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/01_Easy/ClimbingStairs/Debug/ClimbingStairs.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "FloodFill",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/01_Easy/FloodFill/Debug/FloodFill.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "IslandPerimeter",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/01_Easy/IslandPerimeter/Debug/IslandPerimeter.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "MaximumAverageSubarray1",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/01_Easy/MaximumAverageSubarray1/Debug/MaximumAverageSubarray1.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "NextGreaterElement1",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/01_Easy/NextGreaterElement1/Debug/NextGreaterElement1.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "ValidPalindrome",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/01_Easy/ValidPalindrome/Debug/ValidPalindrome.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "ValidParentheses",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/01_Easy/ValidParentheses/Debug/ValidParentheses.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "CloneGraph",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/CloneGraph/Debug/CloneGraph.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "CoinChange",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/CoinChange/Debug/CoinChange.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "CourseSchedule",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/CourseSchedule/Debug/CourseSchedule.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "DailyTemperatures",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/DailyTemperatures/Debug/DailyTemperatures.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "HouseRobber",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/HouseRobber/Debug/HouseRobber.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "KthLargestElementInAnArray",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/KthLargestElementInAnArray/Debug/KthLargestElementInAnArray.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "LongestIncreasingSubsequence",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/LongestIncreasingSubsequence/Debug/LongestIncreasingSubsequence.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "LongestSubstringWithoutRepeatingCharacters",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/LongestSubstringWithoutRepeatingCharacters/Debug/LongestSubstringWithoutRepeatingCharacters.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "MaxAreaOfIsland",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/MaxAreaOfIsland/Debug/MaxAreaOfIsland.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "MinimumSizeSubarraySum",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/MinimumSizeSubarraySum/Debug/MinimumSizeSubarraySum.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "NumberOfIslands",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/NumberOfIslands/Debug/NumberOfIslands.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "NumberOfProvinces",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/NumberOfProvinces/Debug/NumberOfProvinces.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "PacificAtlanticWaterFlow",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/PacificAtlanticWaterFlow/Debug/PacificAtlanticWaterFlow.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "ReversePolishNotation",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/ReversePolishNotation/Debug/ReversePolishNotation.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "RottingOranges",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/RottingOranges/Debug/RottingOranges.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "TwoSumII",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/TwoSumII/Debug/TwoSumII.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+    {
+      "name": "WordSearch",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/C++/12_leetcode/02_Medium/WordSearch/Debug/WordSearch.exe",
+      "cwd": "${workspaceFolder}",
+      "presentation": { "group": "12_leetcode" }
+    },
+  ]
+}
