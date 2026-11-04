@@ -1,0 +1,78 @@
+# =============================================================================
+# C / CMake / VS Code / Windows
+# =============================================================================
+
+# CMake build trees (including multi-config Debug/Release outputs)
+/build/
+/build-*/
+/cmake-build-*/
+**/build/
+**/build-*/
+**/cmake-build-*/
+
+# In-source CMake-generated files (do not ignore CMakeLists.txt or presets)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+Testing/
+Makefile
+build.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+install_manifest.txt
+
+# Compiled objects, libraries, executables, debug symbols
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.ipch
+*.pch
+*.gch
+*.dSYM/
+
+# Test and coverage output
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+coverage/
+coverage-*/
+htmlcov/
+*.lcov
+
+# Editor-local state (keep shareable VS Code configuration)
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/settings.json
+*.code-workspace
+.vs/
+.idea/
+
+# Logs, temporary and backup files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
